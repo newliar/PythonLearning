@@ -7,7 +7,15 @@
 
 # list(range(1,11))
 
-L=[]
-for x in range(1,11):
-    L.append(x*x)
-print(L)
+
+n = input()
+n = int(n)
+list1 = []
+list1 = input().split()
+list2 = []
+i = 0
+while i < n:
+    m = int(list1[i])
+    list2.append(m)
+    i += 1
+print(list2)
